@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Animal_Abstraction
 {
-	internal class Slange
+	internal abstract class Slange : Landdyr, IKrybdyr
 	{
+		internal abstract override void Sound();
+		internal abstract override void Move();
 	}
 }

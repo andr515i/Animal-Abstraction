@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Animal_Abstraction
 {
-	internal class Tyr
+	internal class Tyr: Landdyr, IPattedyr
 	{
+		internal override void Sound()
+		{
+			Console.WriteLine("*Tyrelyde*");
+		}
+		internal override void Move()
+		{
+			Console.WriteLine("*Tyrebevægelser*");
+		}
 	}
 }
