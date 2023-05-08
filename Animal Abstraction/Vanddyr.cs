@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Animal_Abstraction
 {
-	internal class Vanddyr : Dyr
+	internal abstract class Vanddyr : Dyr
 	{
 
 		internal abstract override void Sound();
