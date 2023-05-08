@@ -8,5 +8,6 @@ namespace Animal_Abstraction
 {
 	internal class Dyr
 	{
+
 	}
 }
