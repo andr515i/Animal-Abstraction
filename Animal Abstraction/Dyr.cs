@@ -9,7 +9,9 @@ namespace Animal_Abstraction
 {
 	abstract class Dyr
 	{
+
 		private protected abstract void Sound();
 		private protected abstract void Move();
+
 	}
 }

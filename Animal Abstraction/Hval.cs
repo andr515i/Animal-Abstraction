@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Animal_Abstraction
 {
-	internal class Hval
+	internal class Hval : Vanddyr
 	{
+
 	}
 }
