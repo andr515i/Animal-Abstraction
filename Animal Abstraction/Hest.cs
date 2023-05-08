@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Animal_Abstraction
 {
-	internal class Hest
+	internal class Hest : Landdyr, IPattedyr
 	{
+		internal override void Sound()
+		{
+			Console.WriteLine("*hestelyde*");
+		}
+		internal override void Move()
+		{
+			Console.WriteLine("*hestebevægelser*");
+		}
 	}
 }

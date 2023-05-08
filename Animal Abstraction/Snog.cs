@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Animal_Abstraction
 {
-	internal class Snog
+	internal class Snog: Slange
 	{
+		internal override void Sound()
+		{
+			Console.WriteLine("*Snoglyde*");
+		}
+		internal override void Move()
+		{
+			Console.WriteLine("*Snogbægelser*");
+		}
 	}
 }
