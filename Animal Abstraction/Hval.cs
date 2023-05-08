@@ -8,6 +8,7 @@ namespace Animal_Abstraction
 {
 	internal class Hval : Vanddyr
 	{
-
+		internal abstract override void Sound();
+		internal abstract override void Move();
 	}
 }

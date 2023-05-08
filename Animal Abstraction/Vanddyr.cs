@@ -8,5 +8,8 @@ namespace Animal_Abstraction
 {
 	internal class Vanddyr : Dyr
 	{
+
+		internal abstract override void Sound();
+		internal abstract override void Move();
 	}
 }
